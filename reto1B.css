@@ -29,6 +29,7 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -48,9 +49,11 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
-    justify-content: space-between;
-    width: 15vw;
+    justify-content: space-around;
+    width: 20vw;
     margin: auto;
+    background-color: #f2f6ff;
+    border-radius: 10px;
 }
 
 .icon img {
@@ -62,6 +65,7 @@ h1 {
     text-align: center;
     font-size: 14px;
     color:#1a274e;
+
 }
 
 .plan h5 {
@@ -85,17 +89,18 @@ a {
 .payment {
     display: flex;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 button {
     width: 22vw;
-    height: 4vh;
+    height: 6vh;
     background-color: #4043e2;
     border: none;
     border-radius: 10px;
     color: white;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .cancel {
