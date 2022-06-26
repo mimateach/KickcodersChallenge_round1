@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e8fe;
+    font-family: sans-serif;}
+
+header{
+    background-image: url("/assets/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 12px 12px 0 0;
+    width: 400px;
+    height: 28vh;
+} 
+
+.content {
+    background-color: white;
+    width: 400px;
+    height: auto;
+    border-radius: 0 0 12px 12px;
+    margin-top: -8px;
+    }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #1a274e;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+.text p {
+ color: grey;
+ font-size: small;
+ line-height: 1.8;
+ max-width: 20vw;
+}
+
+.price {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin: auto;
+}
+
+.icon img {
+    height: 35px;
+}
+
+
+.plan h4 {
+    text-align: center;
+    font-size: 14px;
+    color:#1a274e;
+}
+
+.plan h5 {
+margin-top: -12px;
+text-align: center;
+font-size: 12px;
+color: grey;
+font-weight: 300;
+width: 5vw;
+}
+
+.link {
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+button {
+    width: 22vw;
+    height: 4vh;
+    background-color: #4043e2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+}
+
+.cancel a {
+    color: grey;
+    margin: 15px 0 15px 0;
+    font-size: small;
+    font-weight: bold;
+}
